@@ -10,6 +10,8 @@ html{
 }
 
 body{
+    display: flex;
+    flex-direction: column;
     background-color: #1F2937;
 }
 
@@ -46,7 +48,7 @@ a {
 
 .main-content {
     display: flex;
-    height: 90vh;
+    height: 95vh;
     justify-content: space-around;
     align-items: center;
 }
@@ -78,4 +80,36 @@ a {
     color: #E5E7EB;
     background-color: #3882F6;
     border-radius: 8px;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.section-2-bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-2-bottom-images, .section-2-bottom-text{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 8px;
+}
+
+.frames img{
+    width: 200px;
+    margin: 32px;
+}
+
+.section-2-bottom-text{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
 }
